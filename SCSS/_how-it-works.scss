@@ -1,0 +1,36 @@
+.how-it-works {
+  padding-top: 182px;
+
+  h2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 74px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      margin-left: 10px;
+      top: 50%;
+      height: 2px;
+      width: 50%;
+      max-width: 20vw;
+      background-color: $green;
+    }
+  }
+
+  .item {
+    display: flex;
+
+    margin-bottom: 149px;
+
+    h3 {
+      margin-bottom: 16px;
+      margin-left: 42px;
+    }
+
+    p {
+      margin-left: 42px;
+      max-width: 1000px;
+    }
+  }
+}

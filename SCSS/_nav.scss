@@ -1,0 +1,38 @@
+nav {
+  position: sticky !important;
+  top: 0;
+  background-color: $white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+
+  top: 0;
+  .nav-link {
+    color: $black !important;
+    padding: 0 !important;
+
+    &:hover {
+      color: rgba(34, 144, 63, 0.582) !important;
+    }
+  }
+  .active {
+    color: $green !important;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 70%;
+      height: 2px;
+      background-color: $green;
+    }
+  }
+
+  button {
+    padding: 10px 40px;
+    background-color: $blue;
+    color: $white;
+    border-radius: 5px;
+  }
+}

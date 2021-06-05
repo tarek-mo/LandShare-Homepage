@@ -1,0 +1,65 @@
+.getstarted {
+  color: $white;
+  padding-top: 228px;
+  margin-bottom: 50px;
+  .container {
+    .content {
+      padding-bottom: 50px;
+      background-color: $grayish-bg;
+      h1 {
+        padding-top: 59px;
+        margin-bottom: 55px;
+      }
+
+      p {
+        color: $white;
+        line-height: 1.4;
+        margin-bottom: 0;
+      }
+
+      form {
+        margin-top: 83px;
+      }
+
+      input {
+        margin: auto 15px;
+        background: transparent;
+        color: #ffffff;
+
+        opacity: 0.5;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.103);
+
+        &:active {
+          opacity: 1;
+        }
+      }
+
+      .input-wrapper {
+        margin-top: 30px;
+        display: block;
+      }
+
+      .input-container {
+        margin-top: 37px;
+      }
+      button {
+        color: white;
+        padding: 15px 50px 15px 50px;
+        width: 250px;
+        max-width: 80%;
+        background-color: $green;
+        border-radius: 5px;
+        margin-top: 77px;
+        margin-bottom: 47px;
+      }
+    }
+  }
+}
+
+@media (max-width: 466px) {
+  .getstarted {
+    input {
+      margin-bottom: 15px !important;
+    }
+  }
+}
